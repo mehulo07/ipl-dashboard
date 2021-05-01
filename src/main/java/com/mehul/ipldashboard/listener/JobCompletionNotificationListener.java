@@ -72,7 +72,7 @@ public class JobCompletionNotificationListener extends JobExecutionListenerSuppo
 			 * This will persist calculated match data in DB
 			 */
 			teamData.values().forEach(team->{
-				System.out.println("team is :"+team.toString());
+				//System.out.println("team is :"+team.toString());
 				em.persist(team);
 			});
 		}
